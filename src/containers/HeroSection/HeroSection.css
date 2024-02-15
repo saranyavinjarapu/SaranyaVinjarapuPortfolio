@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 32px;
-  background-color: var(--bg-shade);
+  background-color: #f8d8dd;
 }
 .hero--section--content-box {
   display: flex;
