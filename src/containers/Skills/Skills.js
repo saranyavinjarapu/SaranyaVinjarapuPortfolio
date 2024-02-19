@@ -1,13 +1,13 @@
 import React from "react";
 import "./Skills.css";
-import { skills } from "../../data";
+import { skillsData } from "../../data/skillsData";
 
 const Skills = () => {
   return (
     <section className="skills--section" id="mySkills">
       <p className="section--title">MY SKILLS</p>
       <div className="skills--section--container">
-        {skills?.map((item, index) => (
+        {skillsData?.map((item, index) => (
           <div key={index} className="skills--section--card">
             <div className="skills--section--img">
               <img src={item.src} alt="Product Chain" />

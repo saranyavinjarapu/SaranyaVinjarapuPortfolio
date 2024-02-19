@@ -1,4 +1,4 @@
-export const skills = [
+export const skillsData = [
   {
     id: "1",
     src: require("../assets/product_chain_frontend.png"),
