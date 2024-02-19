@@ -53,7 +53,7 @@ const Portfolio = () => {
                 rel="noreferrer"
                 className="text-sm portfolio--link"
               >
-                View In Github
+                {item.linkName ? item.linkName : "View In Github"}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
