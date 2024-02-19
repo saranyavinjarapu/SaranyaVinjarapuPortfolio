@@ -56,6 +56,8 @@
 }
 .portfolio--section--title {
   color: var(--heading-color);
+  font-size: 18px;
+  font-weight: 600;
 }
 .portfolio--link {
   text-decoration: none;

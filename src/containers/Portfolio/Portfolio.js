@@ -42,13 +42,19 @@ const Portfolio = () => {
             </div>
             <div className="portfolio--section--card--content">
               <div>
-                <h3 className="portfolio--section--title">{item.title}</h3>
+                <a
+                  href={item.viewLink}
+                  target="_blank"
+                  className="portfolio--section--title"
+                >
+                  {item.title}
+                </a>
                 <p className="portfolio--section--description">
                   {item.description}
                 </p>
               </div>
               <a
-                href={item.link}
+                href={item.sourceLink}
                 target="_blank"
                 rel="noreferrer"
                 className="text-sm portfolio--link"
