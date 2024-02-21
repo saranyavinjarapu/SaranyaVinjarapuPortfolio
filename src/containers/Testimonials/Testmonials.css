@@ -64,7 +64,7 @@
   line-height: 150%;
 }
 
-img {
+.testimonial--section--card--author--detail img {
   border-radius: 50%;
   width: auto;
   height: 80px;

@@ -8,6 +8,7 @@
 .about--section--img img {
   width: 400px;
   height: 400px;
+  border-radius: 8px;
 }
 
 .about--section .hero--section-description {
