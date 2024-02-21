@@ -2,7 +2,83 @@ import React from "react";
 import "./Contact.css";
 
 const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <section id="Contact" className="contact--section">
+      <div className="contact--text">
+        <div className="contact--text--title">Contact Me</div>
+      </div>
+      <form
+        action="mailto:saranya.vinjarapu@gmail.com"
+        method="post"
+        enctype="text/plain"
+        className="contact--form--container"
+      >
+        <div className="container">
+          <label htmlFor="first-name" className="contact--label">
+            <span className="text-md">First Name</span>
+            <input
+              type="text"
+              className="contact--input text-md"
+              name="first-name"
+              id="first-name"
+              required
+            />
+          </label>
+          <label htmlFor="last-name" className="contact--label">
+            <span className="text-md">Last Name</span>
+            <input
+              type="text"
+              className="contact--input text-md"
+              name="last-name"
+              id="last-name"
+              required
+            />
+          </label>
+          <label htmlFor="email" className="contact--label">
+            <span className="text-md">Email</span>
+            <input
+              type="email"
+              className="contact--input text-md"
+              name="email"
+              id="email"
+              required
+            />
+          </label>
+          <label htmlFor="phone-number" className="contact--label">
+            <span className="text-md">Phone-Number</span>
+            <input
+              type="number"
+              className="contact--input text-md"
+              name="phone-number"
+              id="phone-number"
+              required
+            />
+          </label>
+        </div>
+        <label htmlFor="message" className="contact--label">
+          <span className="text-md">Message</span>
+          <textarea
+            className="contact--input text-md"
+            id="message"
+            rows="2"
+            placeholder="Type your message..."
+            required
+          />
+        </label>
+        <div className="contact--form--submission">
+          <label htmlFor="checkbox" className="checkbox--label">
+            <input type="checkbox" required name="checkbox" id="checkbox" />
+            <span className="text-lg">I accept the terms</span>
+          </label>
+          <div>
+            <button className="btn btn-primary contact--form--btn">
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+  );
 };
 
 export default Contact;
