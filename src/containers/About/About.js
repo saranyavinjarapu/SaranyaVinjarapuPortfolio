@@ -4,7 +4,7 @@ import svAbout from "../../assets/about_sv.png";
 
 const About = () => {
   return (
-    <div class="about--section">
+    <div id="AboutMe" class="about--section">
       <div class="about--section--img">
         <img src={svAbout} />
       </div>
