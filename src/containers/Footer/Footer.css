@@ -54,3 +54,17 @@
   font-weight: 400;
   line-height: 28px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .footer--container {
+    padding: 40px;
+    border: 2px solid red;
+  }
+  .footer--link--container {
+    display: flex;
+    flex-direction: column;
+  }
+  .divider {
+    margin: 20px 0 42.67px;
+  }
+}
