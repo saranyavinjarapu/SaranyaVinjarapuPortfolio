@@ -1,6 +1,7 @@
 import React from "react";
 import svHero from "../../assets/hero_img_sv.png";
 import "./HeroSection.css";
+import { Link } from "react-scroll";
 
 const HeroSection = () => {
   return (
@@ -20,7 +21,9 @@ const HeroSection = () => {
             history of working in various industries.
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <Link className="hero--section-contact" to="Contact">
+          <button className="btn btn-primary">Get In Touch</button>
+        </Link>
       </div>
       <div className="hero--section--img">
         <img src={svHero} alt="Saranya Vinjarapu Hero" />
