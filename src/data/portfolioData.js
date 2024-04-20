@@ -41,7 +41,19 @@ export const portfolioData = [
     src: require("../assets/gpu_datavisualisation_pf.png"),
     title: "GPU Scattered Data Modeling",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "Research on GPU-Based Scattered Data Visualisation using CUDA programming to increase the speed and performance.",
+    linkName: "View Link",
+    viewLink:
+      "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=akron1335297259&disposition=inline",
+    sourceLink:
+      "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=akron1335297259&disposition=inline",
+  },
+  {
+    id: "6",
+    src: require("../assets/autofluencer.png"),
+    title: "AutoFluencer",
+    description:
+      "Creator Management platform designed for the performance automotive market",
     linkName: "View Link",
     viewLink:
       "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=akron1335297259&disposition=inline",
