@@ -29,13 +29,14 @@ export const portfolioData = [
   },
   {
     id: "4",
-    src: require("../assets/custom_tictactoe_pf.png"),
-    title: "Customizable Tic Tac Toe",
+    src: require("../assets/collection_crud_pf.png"),
+    title: "Collection CRUD",
     description:
-      "Customizable Tic Tac Toe with custom grid size, reset and game information history features",
-    viewLink: "https://customizable-dynamic-size-tic-tac-toe.netlify.app/",
-    sourceLink: "https://github.com/saranyavinjarapu/Tic-Tac-Toe",
+      "Collection List Display with CRUD operations to enable users to add and delete collections ",
+    viewLink: "https://collection-crud.netlify.app/",
+    sourceLink: "https://github.com/saranyavinjarapu/CollectionCRUD",
   },
+
   {
     id: "5",
     src: require("../assets/gpu_datavisualisation_pf.png"),
@@ -59,5 +60,14 @@ export const portfolioData = [
       "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=akron1335297259&disposition=inline",
     sourceLink:
       "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=akron1335297259&disposition=inline",
+  },
+  {
+    id: "7",
+    src: require("../assets/custom_tictactoe_pf.png"),
+    title: "Customizable Tic Tac Toe",
+    description:
+      "Customizable Tic Tac Toe with custom grid size, reset and game information history features",
+    viewLink: "https://customizable-dynamic-size-tic-tac-toe.netlify.app/",
+    sourceLink: "https://github.com/saranyavinjarapu/Tic-Tac-Toe",
   },
 ];
