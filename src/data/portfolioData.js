@@ -29,16 +29,6 @@ export const portfolioData = [
   },
   {
     id: "4",
-    src: require("../assets/collection_crud_pf.png"),
-    title: "Collection CRUD",
-    description:
-      "Collection List Display with CRUD operations to enable users to add and delete collections ",
-    viewLink: "https://collection-crud.netlify.app/",
-    sourceLink: "https://github.com/saranyavinjarapu/CollectionCRUD",
-  },
-
-  {
-    id: "5",
     src: require("../assets/gpu_datavisualisation_pf.png"),
     title: "GPU Scattered Data Modeling",
     description:
@@ -50,7 +40,7 @@ export const portfolioData = [
       "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=akron1335297259&disposition=inline",
   },
   {
-    id: "6",
+    id: "5",
     src: require("../assets/autofluencer.png"),
     title: "AutoFluencer",
     description:
@@ -62,7 +52,7 @@ export const portfolioData = [
       "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=akron1335297259&disposition=inline",
   },
   {
-    id: "7",
+    id: "6",
     src: require("../assets/custom_tictactoe_pf.png"),
     title: "Customizable Tic Tac Toe",
     description:
