@@ -56,10 +56,8 @@ export const portfolioData = [
     description:
       "Creator Management platform designed for the performance automotive market",
     linkName: "View Link",
-    viewLink:
-      "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=akron1335297259&disposition=inline",
-    sourceLink:
-      "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=akron1335297259&disposition=inline",
+    viewLink: "https://autofluencer.com/",
+    sourceLink: "https://autofluencer.com/",
   },
   {
     id: "7",
